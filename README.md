@@ -13,7 +13,7 @@ https://salikwordfrequency.netlify.app/
 
 ![sc1](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/c976014f-350d-4a70-80a2-0f1730f7588d)
 
-![sc2](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/a65a024e-dd57-4286-94d1-f107cea0ce49)
+![sc5](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/45bba766-ff68-477b-aced-daa0ab7f65e9)
 
 ![sc3](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/ac1a08c7-d940-4b09-8735-3617d8a666db)
 
