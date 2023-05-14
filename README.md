@@ -18,7 +18,7 @@ https://salikwordfrequency.netlify.app/
         getText()
     }
     
-    Expalnation -:
+    Expalnation -: 
     
     a) val is an array of object which contains word and it's frequency
     b) getText() is the function which will read complete 'txt file' and update val with word and it's frequency -> [{'key':word,'val':Frequency},.......]
