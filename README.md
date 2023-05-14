@@ -4,6 +4,11 @@
 
 https://salikwordfrequency.netlify.app/
 
+# Dependencies Used
+
+1) recharts -: For Displaying Histogram
+2) react-json-to-csv -: For Downloading Csv File
+
 # ScreenShots
 
 ![sc1](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/c976014f-350d-4a70-80a2-0f1730f7588d)
