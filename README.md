@@ -67,7 +67,6 @@ https://salikwordfrequency.netlify.app/
             <Tooltip />
             <Bar dataKey="value" />
     </BarChart>
-    ```
     
     Expalnation -:
     
@@ -75,6 +74,7 @@ https://salikwordfrequency.netlify.app/
     b) 'data' is used for filling array of object in the histogram (which i have updated in 'val' on first step)
     c) <XAxis dataKey="key" /> --> This line of code is helping in setting x-axis as  top 20 word name
     d) <YAxis dataKey="key" /> --> This line of code is helping in setting x-axis as  top 20 frequency value
+    ```    
     
 3) Export To Csv
     
