@@ -25,6 +25,7 @@ https://salikwordfrequency.netlify.app/
     a) val is an array of object which contains word and it's frequency
     b) getText() is the function which will read complete 'txt file' and update val with word and it's frequency -> [{'key':word,'val':Frequency},.......]
     
+    ```
     function getText(){
       fetch('https://www.terriblytinytales.com/test.txt')
       .then(function(response){
@@ -57,15 +58,18 @@ https://salikwordfrequency.netlify.app/
       })
       
     }
+    ```
     
 2) Setting Up Histogram
     
-   ```<BarChart className='.chart' width={600} height={400} data={val}>
+   ```
+   <BarChart className='.chart' width={600} height={400} data={val}>
             <XAxis dataKey="key" />
             <YAxis dataKey="value" />
             <Tooltip />
             <Bar dataKey="value" />
-    </BarChart>```
+    </BarChart>
+    ```
     
     Expalnation -:
     
@@ -76,14 +80,16 @@ https://salikwordfrequency.netlify.app/
     
 3) Export To Csv
     
-  ``` <CsvDownloadButton 
+  ``` 
+  <CsvDownloadButton 
             className='white_btn1' 
             filename='wordfrequency' 
             delimiter=' : ' 
             headers={['Word','Frequency']} 
             data={val} >
             Export in CSV
-    </CsvDownloadButton>```
+    </CsvDownloadButton>
+    ```
     
     a) filename -: Setting up filename of csv file which will be downloaded
     b) delimiter -: Gives separation  of ' : ' between Word and Frequency
