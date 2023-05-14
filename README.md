@@ -18,14 +18,12 @@ https://salikwordfrequency.netlify.app/
         val=[{}]
         getText()
     }
-    ```
     
     Expalnation -: 
     
     a) val is an array of object which contains word and it's frequency
     b) getText() is the function which will read complete 'txt file' and update val with word and it's frequency -> [{'key':word,'val':Frequency},.......]
     
-    ```
     function getText(){
       fetch('https://www.terriblytinytales.com/test.txt')
       .then(function(response){
