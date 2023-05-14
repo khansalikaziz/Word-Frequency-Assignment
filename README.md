@@ -12,18 +12,20 @@ https://salikwordfrequency.netlify.app/
  # Code Explanation
  1) Onclick Function of Submit Button
  
-    ```const handleClick=(e)=>{
+    ```
+    const handleClick=(e)=>{
         e.preventDefault()
         val=[{}]
         getText()
-    }```
+    }
+    ```
     
     Expalnation -: 
     
     a) val is an array of object which contains word and it's frequency
     b) getText() is the function which will read complete 'txt file' and update val with word and it's frequency -> [{'key':word,'val':Frequency},.......]
     
-    ```function getText(){
+    function getText(){
       fetch('https://www.terriblytinytales.com/test.txt')
       .then(function(response){
         return response.text();
@@ -54,7 +56,7 @@ https://salikwordfrequency.netlify.app/
         setFlag(true)
       })
       
-    }```
+    }
     
 2) Setting Up Histogram
     
