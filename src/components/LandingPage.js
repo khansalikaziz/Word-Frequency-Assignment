@@ -29,9 +29,9 @@ const LandingPage = () => {
         const num = 20;
         const map = {};
         const findMostFrequent = (str = '', num = 1) => {
-        const strArr = str.split(' ');
-        
+        const strArr = str.trim().split('?').join(' ').split('.').join(' ').split(/\s+/).join(' ').split(' ');
         strArr.forEach(word => {
+          word=word.toLowerCase()
            if(map.hasOwnProperty(word)){
               map[word]++;
            }else{
@@ -60,7 +60,7 @@ const LandingPage = () => {
           <h1>Histogram of 20 most frequent words</h1>
           <BarChart className='.chart' width={600} height={400} data={val}>
             <XAxis dataKey="key" />
-            <YAxis />
+            <YAxis dataKey="value" />
             <Tooltip />
             <Bar dataKey="value" />
           </BarChart>
