@@ -33,7 +33,7 @@ https://salikwordfrequency.netlify.app/
         const num = 20;
         const map = {};
         const findMostFrequent = (str = '', num = 1) => {
-        const strArr = str.split(' ');
+        const strArr = str.trim().split('?').join(' ').split('.').join(' ').split(/\s+/).join(' ').split(' ');
         
         strArr.forEach(word => {
            if(map.hasOwnProperty(word)){
@@ -100,8 +100,9 @@ https://salikwordfrequency.netlify.app/
 
 ![sc1](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/c976014f-350d-4a70-80a2-0f1730f7588d)
 
-![sc5](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/45bba766-ff68-477b-aced-daa0ab7f65e9)
+![one](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/e2e03361-65e7-4867-a2bc-f910634c57b4)
 
-![sc3](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/ac1a08c7-d940-4b09-8735-3617d8a666db)
+![two](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/83919c1f-2ab2-48e2-918d-ff59169db052)
 
-![sc4](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/d3112560-721d-4b25-95c5-c9f4324822da)
+![three](https://github.com/khansalikaziz/Word-Frequency-Assignment/assets/76683360/0ed9514c-f04c-4587-a492-6bd223dbedf2)
+
